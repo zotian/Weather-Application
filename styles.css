@@ -1,0 +1,113 @@
+body{
+    margin:0;
+}
+#container{
+    width:100%;
+    height:100%;
+    background: linear-gradient(#7e09ac, #141d81);
+    margin: 0 auto;
+    position:relative
+}
+
+#searchBar{
+    width:80%;
+    height:80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%, -50%)
+}
+
+#searchInput{
+    width:80%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0);
+    border:0px;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1.7em;
+    padding-left: 30px;
+    position: relative;
+
+}
+#search-btn{
+    top:0%;
+    left:80%;
+    width:20%;
+    height: 100%;
+    font-size: 2em;
+    color:rgba(255, 255, 255, 0.5);
+    transform: translate(30%, 30%);
+    position: absolute;
+    cursor: pointer;
+
+
+}
+#temperature{
+    top:20%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%)
+}
+#temperature h1{
+    font-size: 6em;
+    color:rgba(255, 255, 255, 0.9);
+}
+h1{
+    margin:0;
+}
+h2{
+    top:27%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 3.3em;
+    color:rgba(255, 255, 255, 0.9);
+    margin:0;
+    margin-top:0.3em;
+}
+#time{
+    top:35%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 1.8em;
+    color:rgba(255, 255, 255, 0.6);
+    margin:0;
+}
+h4{
+    text-align:center;
+    width:70px;
+    font-size: 1.6em;
+    color:rgba(255, 255, 255, 0.7);
+}
+h5{
+    transform: translate(10%, -200%);
+    font-size: 1.6em;
+    width:70px;
+    text-align: center;
+}
+#weather, #temperature-all, #temperature-icons, #days{
+    width:100%;
+    left:50%; 
+    top:60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    color:rgba(255, 255, 255, 0.7);
+    display:flex;
+    justify-content:space-around;
+}
+
+#days{
+    transform: translate(-50%, 10%);
+}
+.weather-icons{
+    padding:0.2em;
+    width:80px;
+    height:80px;
+}
+img{
+    width:100%;
+    height:auto;
+}
